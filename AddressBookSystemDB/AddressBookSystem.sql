@@ -27,3 +27,7 @@ insert into address_book(first_name,last_name,address,city,state,zip,phone_numbe
 ---- UC4 ----
 update address_book set address='Sangli Road', city='Mumbai', email='hshephali@gmail.com' where first_name='Shephali';
 select * from address_book;
+
+---- UC5 ----
+delete from address_book where first_name = 'Aditi';
+select * from address_book;
