@@ -31,3 +31,7 @@ select * from address_book;
 ---- UC5 ----
 delete from address_book where first_name = 'Aditi';
 select * from address_book;
+
+---- UC6 ----
+select * from address_book where city = 'Pune';
+select * from address_book where state = 'UP';
