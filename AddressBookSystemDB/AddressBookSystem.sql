@@ -49,3 +49,6 @@ alter table address_book add column type varchar(30) after last_name;
 update address_book set type='Family' where id=1;
 update address_book set type='Friend' where id=2;
 update address_book set type='Profession' where id=4;
+
+---- UC10 ----
+select type, count(*) from address_book group by type; 
