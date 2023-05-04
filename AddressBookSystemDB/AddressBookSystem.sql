@@ -43,3 +43,9 @@ select city, count(*) from address_book group by city;
 ---- UC8 ----
 select * from address_book where city='Banaras' order by first_name asc;
 select * from address_book where state='Maharashtra' order by first_name asc;
+
+---- UC9 ----
+alter table address_book add column type varchar(30) after last_name;
+update address_book set type='Family' where id=1;
+update address_book set type='Friend' where id=2;
+update address_book set type='Profession' where id=4;
