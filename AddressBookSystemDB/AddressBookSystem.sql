@@ -39,3 +39,7 @@ select * from address_book where state = 'UP';
 ---- UC7 ----
 select state, count(*) from address_book group by state;
 select city, count(*) from address_book group by city;
+
+---- UC8 ----
+select * from address_book where city='Banaras' order by first_name asc;
+select * from address_book where state='Maharashtra' order by first_name asc;
