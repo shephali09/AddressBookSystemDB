@@ -35,3 +35,7 @@ select * from address_book;
 ---- UC6 ----
 select * from address_book where city = 'Pune';
 select * from address_book where state = 'UP';
+
+---- UC7 ----
+select state, count(*) from address_book group by state;
+select city, count(*) from address_book group by city;
