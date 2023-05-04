@@ -51,4 +51,11 @@ update address_book set type='Friend' where id=2;
 update address_book set type='Profession' where id=4;
 
 ---- UC10 ----
-select type, count(*) from address_book group by type; 
+select type, count(*) from address_book group by type;
+
+---- UC11 ----
+insert into address_book(first_name,last_name,type,address,city,state,zip,phone_number,email) values 
+('Riya','Jain','Friend','Deccan','Hyderabad','Telengana',4321987,7687980967,'riyaj@gmail.com');
+
+insert into address_book(first_name,last_name,type,address,city,state,zip,phone_number,email) values 
+('Vaibhav','Patil','Family','Church Street','Patna','Bihar',453897,8788405865,'vaibhav23@gmail.com');

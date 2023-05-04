@@ -1,0 +1,6 @@
+id,first_name,last_name,type,address,city,state,zip,phone_number,email
+1,Shephali,Hiremath,Family,"Sangli Road",Mumbai,Maharashtra,416115,8329596787,hshephali@gmail.com
+2,Harshad,Sharma,Friend,"MG Chowk",Pune,Maharashtra,412365,9595030156,harshad2@gmail.com
+4,Vidya,Swami,Profession,Shahapur,Banaras,UP,145789,7418523202,vidya3@gmail.com
+5,Riya,Jain,Friend,Deccan,Hyderabad,Telengana,4321987,7687980967,riyaj@gmail.com
+6,Vaibhav,Patil,Family,"Church Street",Patna,Bihar,453897,8788405865,vaibhav23@gmail.com
