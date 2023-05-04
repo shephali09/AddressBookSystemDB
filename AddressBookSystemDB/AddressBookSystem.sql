@@ -59,3 +59,14 @@ insert into address_book(first_name,last_name,type,address,city,state,zip,phone_
 
 insert into address_book(first_name,last_name,type,address,city,state,zip,phone_number,email) values 
 ('Vaibhav','Patil','Family','Church Street','Patna','Bihar',453897,8788405865,'vaibhav23@gmail.com');
+
+---- Uc13 ----
+select * from address_book where city = 'Pune';
+
+select state, count(*) from address_book group by state;
+select city, count(*) from address_book group by city;
+
+select * from address_book where city='Banaras' order by first_name asc;
+select * from address_book where state='Maharashtra' order by first_name asc;
+
+select type, count(*) from address_book group by type;
